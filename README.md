@@ -1,4 +1,6 @@
-# Drone-google-chat
+# drone-google-chat
+
+[![Build Status](https://cloud.drone.io/api/badges/diogoleal/drone--google-chat/status.svg)](https://cloud.drone.io/diogoleal/drone--google-chat)
 
 This plugin send a message in a room in Google Chat.
 ```
