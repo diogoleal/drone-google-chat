@@ -1,0 +1,19 @@
+---
+kind: pipeline
+type: docker
+name: default
+
+steps:
+- name: drone-google-chat
+  image: diogoleal/drone-google-chat
+  settings:
+    URL:
+      from_secret: google_url
+    KEY: 
+      from_secret: google_chat_key
+    TOKEN:
+      from_secret: google_chat_token
+  when:
+    status:
+      - failure
+      - success
