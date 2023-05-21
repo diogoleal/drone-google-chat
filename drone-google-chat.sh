@@ -3,19 +3,19 @@ if [ -z $PLUGIN_IMAGE ]; then
   PLUGIN_IMAGE="https://goo.gl/aeDtrS"
 fi
 
-if [ -z $PLUGIN_URL ]; then 
+if [ -z $PLUGIN_URL ]; then
   echo "Missing url"
   echo "set variable URL in .drone.yml"
   exit 1
 fi
 
-if [ -z ${PLUGIN_KEY} ]; then 
+if [ -z ${PLUGIN_KEY} ]; then
   echo "missing variable KEY"
   echo "set variable KEY in .drone.yml"
   exit 1
 fi
 
-if [ -z ${PLUGIN_TOKEN} ]; then 
+if [ -z ${PLUGIN_TOKEN} ]; then
   echo "missing token"
   echo "set variable TOKEN in .drone.yml"
   exit 1

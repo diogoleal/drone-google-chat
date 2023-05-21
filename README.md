@@ -14,7 +14,7 @@ This plugin send a message in a room in Google Chat.
    when:
     status:
       - failure
-      - success 
+      - success
 ```
 
 
